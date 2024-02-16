@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/menu.uss?fileID=7433441132597879392&amp;guid=16d9928da8cc466438e2c690af78f9cd&amp;type=3#menu" />
+    <ui:VisualElement name="MainMenu" style="flex-grow: 1; background-color: rgb(72, 67, 67);">
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 10%; padding-right: 20%; padding-bottom: 10%; padding-left: 20%; background-color: rgba(72, 67, 67, 0); -unity-background-scale-mode: scale-to-fit;">
+            <ui:Button text="Start" name="start" class="button" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; flex-direction: column-reverse; padding-top: 10%; padding-right: 20%; padding-bottom: 10%; padding-left: 20%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;">
+            <ui:Button text="Quit" name="quit" class="button" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

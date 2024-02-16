@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="hud" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column-reverse; justify-content: space-between; align-self: flex-end;">
+        <ui:Label text="Label" name="speed" style="background-color: rgba(0, 0, 0, 0.51); border-top-left-radius: 50px; height: 97px; width: 97px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-bottom-left-radius: 50px; white-space: normal; -unity-text-align: middle-center;" />
+    </ui:VisualElement>
+</ui:UXML>
